@@ -1,4 +1,4 @@
-const {app, BrowserWindow } = require('electron');
+const {app, BrowserWindow, Menu } = require('electron');
 
 const createWindows = ()=>{
     const win = new BrowserWindow({
